@@ -3,23 +3,23 @@ import {
   style,
   transition,
   trigger
-} from "./chunk-ZDDW4J2S.js";
+} from "./chunk-GYTJSVF2.js";
 import {
   Tooltip,
   TooltipModule
-} from "./chunk-AYBKTVVQ.js";
+} from "./chunk-ZG5DQDUW.js";
 import {
   RouterLink,
   RouterLinkActive,
   RouterModule
-} from "./chunk-T3L7TVLI.js";
+} from "./chunk-NMJLQ5U5.js";
 import {
   DomSanitizer
-} from "./chunk-TOPLGIBU.js";
+} from "./chunk-ET4DQSNB.js";
 import {
   Ripple,
   RippleModule
-} from "./chunk-XOVH45S7.js";
+} from "./chunk-K24TDHZT.js";
 import {
   ConnectedOverlayScrollHandler,
   DomHandler
@@ -30,7 +30,7 @@ import {
   PrimeTemplate,
   UniqueComponentId,
   zindexutils
-} from "./chunk-W4HYEQGY.js";
+} from "./chunk-MT66WQ3B.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -40,7 +40,7 @@ import {
   NgStyle,
   NgTemplateOutlet,
   isPlatformBrowser
-} from "./chunk-VWBI2EEO.js";
+} from "./chunk-E66X5BGH.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -101,7 +101,7 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-PWRWHEEN.js";
+} from "./chunk-72WYYBB4.js";
 
 // node_modules/primeng/fesm2022/primeng-menu.mjs
 var _c0 = ["pMenuItemContent", ""];

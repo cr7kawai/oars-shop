@@ -1,13 +1,13 @@
 import {
   PrimeTemplate
-} from "./chunk-W4HYEQGY.js";
+} from "./chunk-MT66WQ3B.js";
 import {
   CommonModule,
   NgClass,
   NgIf,
   NgStyle,
   NgTemplateOutlet
-} from "./chunk-VWBI2EEO.js";
+} from "./chunk-E66X5BGH.js";
 import {
   ChangeDetectionStrategy,
   Component,
@@ -35,7 +35,7 @@ import {
   ɵɵproperty,
   ɵɵqueryRefresh,
   ɵɵtemplate
-} from "./chunk-PWRWHEEN.js";
+} from "./chunk-72WYYBB4.js";
 
 // node_modules/primeng/fesm2022/primeng-toolbar.mjs
 var _c0 = ["*"];
