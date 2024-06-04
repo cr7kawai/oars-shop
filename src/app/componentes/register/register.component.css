@@ -1,0 +1,15 @@
+.error-message {
+    color: #f44336;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.error-icon {
+    color: #f44336;
+    margin-right: 0.25rem;
+    vertical-align: middle;
+}
+
+.field {
+    margin-bottom: 1rem;
+}
