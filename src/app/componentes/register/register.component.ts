@@ -3,6 +3,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { passwordMatchValidator } from '../../shared/password-match.directives';
 import { AuthService } from '../../servicios/auth.service';
 import { MessageService } from 'primeng/api';
+import { User } from '../../interfaces/auth';
 import { Router } from '@angular/router';
 
 @Component({
@@ -40,5 +41,23 @@ export class RegisterComponent {
   }
   get confirmPassword(){
     return this.registerForm.controls['confirmPassword'];
+  }
+
+  enviarRegistro(){
+    const data = {...this.registerForm.value};
+
+    delete data.confirmPassword;
+
+    this.authService.registerUser(data as User).subscribe(
+      response => {
+        this.messageService.add({
+          severity: 'success',
+          summary: 'Success',
+          detail: 'Registro Agregado'
+        });
+        this.router.navigate(['login']);
+      },
+      error => console.log(error) 
+    )
   }
 }
