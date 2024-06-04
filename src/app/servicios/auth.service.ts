@@ -14,7 +14,6 @@ export class AuthService {
 
   registerUser(usuario: User){
     return this.http.post(`${this.baseUrl}/users`,usuario);
-    
   }
 
   getUserByEmail(email:string):Observable<User[]>{
