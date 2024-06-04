@@ -1,6 +1,6 @@
 import {
   ObjectUtils
-} from "./chunk-MT66WQ3B.js";
+} from "./chunk-ANKL7E5G.js";
 import {
   ChangeDetectionStrategy,
   Component,
@@ -13,7 +13,7 @@ import {
   ɵɵdefineComponent,
   ɵɵprojection,
   ɵɵprojectionDef
-} from "./chunk-72WYYBB4.js";
+} from "./chunk-3OOCXNZS.js";
 
 // node_modules/primeng/fesm2022/primeng-baseicon.mjs
 var _c0 = ["*"];
@@ -94,4 +94,4 @@ var BaseIcon = class _BaseIcon {
 export {
   BaseIcon
 };
-//# sourceMappingURL=chunk-COSXKDPY.js.map
+//# sourceMappingURL=chunk-MIHTK52L.js.map
