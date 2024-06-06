@@ -19,6 +19,7 @@ import { FileUploadModule } from 'primeng/fileupload';
 import { TableModule } from 'primeng/table';
 import { TagModule } from 'primeng/tag';
 import { RatingModule } from 'primeng/rating';
+import { DropdownModule } from 'primeng/dropdown';
 
 //Módulos PrimeNG
 const modPrime: any =[
@@ -38,7 +39,8 @@ const modPrime: any =[
   FileUploadModule,
   TableModule,
   TagModule,
-  RatingModule
+  RatingModule,
+  DropdownModule
 ];
 
 @NgModule({

@@ -16,16 +16,19 @@ export class ProductosService {
     return this.http.get<Producto[]>(`${this.baseUrl}/products`);
   }
 
-  addProducto(producto: Producto){
-    return this.http.post(`${this.baseUrl}/products`,producto);
-  }
-  
-  deleteProducto(idProducto: number){
-    return this.http.delete(`${this.baseUrl}/products?id=${idProducto}`);
+  getOneProducto(id: number): Observable<Producto[]> {
+    return this.http.get<Producto[]>(`${this.baseUrl}/products?id=${id}`);
   }
 
-  updateProducto(idProducto: number, productoAct: Producto){
-    return this.http.put(`${this.baseUrl}/products?id=${idProducto}`,productoAct);
+  addProducto(producto: Producto): Observable<Producto> {
+    return this.http.post<Producto>(`${this.baseUrl}/products`, producto);
   }
 
+  deleteProducto(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.baseUrl}/products/${id}`);
+  }
+
+  updateProducto(idProducto: number, productoAct: Producto): Observable<Producto> {
+    return this.http.put<Producto>(`${this.baseUrl}/products/${idProducto}`, productoAct);
+  }
 }

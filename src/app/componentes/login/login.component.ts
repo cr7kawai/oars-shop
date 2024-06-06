@@ -34,17 +34,18 @@ export class LoginComponent {
   }
 
   login(){
-    console.log('login')
     const {email, password} = this.loginForm.value;
 
     this.authService.getUserByEmail(email as string).subscribe(response =>{
       if(response.length > 0 && response[0].password === password){
+        console.log('login')
         sessionStorage.setItem('email',email as string);
         this.router.navigate(['/home']);
       }else{
         this.messageService.add({severity: 'error', summary: 'Error', detail: 'Email o Contraseña Incorrectos'});
       }
     }, error =>{
+      console.log('no login')
       this.messageService.add({severity: 'error', summary: 'Error', detail: 'Email o Contraseña Incorrectos'});
     }
     )
