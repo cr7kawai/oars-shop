@@ -1,3 +1,48 @@
 {
-    "users": []
+  "users": [
+    {
+      "id": "0167",
+      "fullName": "Oscar",
+      "email": "rojassanchezo63@gmail.com",
+      "password": "@Hola123"
+    }
+  ],
+  "products":[
+    {
+        "id": "0077",
+        "codigo": "123",
+        "nombre": "string",
+        "descripcion": "string",
+        "precio": 100,
+        "imagen": "hola123",
+        "categoria": "string",
+        "cantidad": 10,
+        "estadoInventrario": "INSTOCK",
+        "rating": 2
+    },
+    {
+        "id": "0078",
+        "codigo": "123",
+        "nombre": "string",
+        "descripcion": "string",
+        "precio": 100,
+        "imagen": "hola123",
+        "categoria": "string",
+        "cantidad": 10,
+        "estadoInventrario": "LOWSTOCK",
+        "rating": 2
+    },
+    {
+        "id": "0079",
+        "codigo": "123",
+        "nombre": "string",
+        "descripcion": "string",
+        "precio": 100,
+        "imagen": "hola123",
+        "categoria": "string",
+        "cantidad": 10,
+        "estadoInventrario": "OUTOFSTOCK",
+        "rating": 2
+    }
+  ]
 }

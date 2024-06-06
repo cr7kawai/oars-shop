@@ -16,6 +16,9 @@ import { ConfirmPopupModule } from 'primeng/confirmpopup';
 import { DialogModule } from 'primeng/dialog';
 import { ImageModule } from 'primeng/image';
 import { FileUploadModule } from 'primeng/fileupload';
+import { TableModule } from 'primeng/table';
+import { TagModule } from 'primeng/tag';
+import { RatingModule } from 'primeng/rating';
 
 //Módulos PrimeNG
 const modPrime: any =[
@@ -32,7 +35,10 @@ const modPrime: any =[
   ConfirmPopupModule,
   DialogModule,
   ImageModule,
-  FileUploadModule
+  FileUploadModule,
+  TableModule,
+  TagModule,
+  RatingModule
 ];
 
 @NgModule({
