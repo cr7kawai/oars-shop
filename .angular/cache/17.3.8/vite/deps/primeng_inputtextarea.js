@@ -1,13 +1,13 @@
 import {
   NgControl,
   NgModel
-} from "./chunk-IFVZANRQ.js";
+} from "./chunk-FBXONDKW.js";
 import {
   PrimeNGConfig
-} from "./chunk-SKJMZB3Y.js";
+} from "./chunk-XS73X26G.js";
 import {
   CommonModule
-} from "./chunk-MAJIEFNK.js";
+} from "./chunk-IPESEEDX.js";
 import {
   ChangeDetectorRef,
   Directive,
@@ -28,7 +28,8 @@ import {
   ɵɵdefineNgModule,
   ɵɵdirectiveInject,
   ɵɵlistener
-} from "./chunk-WN5G7UFP.js";
+} from "./chunk-AIX6NXNT.js";
+import "./chunk-QOHD3WUR.js";
 
 // node_modules/primeng/fesm2022/primeng-inputtextarea.mjs
 var InputTextarea = class _InputTextarea {

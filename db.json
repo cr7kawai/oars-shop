@@ -1,3 +1,60 @@
 {
-    "users": []
+  "users": [
+    {
+      "id": "0167",
+      "fullName": "Oscar",
+      "email": "rojassanchezo63@gmail.com",
+      "password": "@Hola123"
+    }
+  ],
+  "products": [
+    {
+      "codigo": "123",
+      "nombre": "Termo",
+      "descripcion": "Mantiene en su temperatura.",
+      "precio": 123,
+      "imagen": "https://fabricadesuenos.com.mx/cdn/shop/files/Termo-REgalo-02.jpg?v=1690828691",
+      "categoria": "Videojuegos",
+      "cantidad": 12,
+      "estadoInventrario": "INSTOCK",
+      "rating": 1,
+      "id": "123"
+    },
+    {
+      "codigo": "123",
+      "nombre": "Gansito",
+      "descripcion": "Ta durísimo viejo",
+      "precio": 12,
+      "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750100015310L.jpg",
+      "categoria": "Videojuegos",
+      "cantidad": 12,
+      "estadoInventrario": "LOWSTOCK",
+      "rating": 4,
+      "id": "a071"
+    },
+    {
+      "codigo": "GAFE1",
+      "nombre": "Gafas Rayban",
+      "descripcion": "Las más duras",
+      "precio": 1300,
+      "imagen": "https://www.masvision.mx/cdn/shop/products/Lentes-de-Sol-Ray-Ban-RB3025-Dorado-805289305033_1.jpg?v=1651601439",
+      "categoria": "Gafas",
+      "cantidad": 123,
+      "estadoInventrario": "INSTOCK",
+      "rating": 3,
+      "id": "9fef"
+    },
+    {
+      "id": "a2bf",
+      "codigo": "Axebs",
+      "nombre": "Axe Desodorante",
+      "descripcion": "Ta duro",
+      "precio": 123,
+      "imagen": "https://assets.unileversolutions.com/v1/66389491.png",
+      "categoria": "Dosodorantes",
+      "cantidad": 10,
+      "estadoInventrario": "OUTOFSTOCK",
+      "rating": 5
+    }
+  ]
 }

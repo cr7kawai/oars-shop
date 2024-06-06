@@ -2,15 +2,19 @@ import {
   RouterLink,
   RouterLinkActive,
   RouterModule
-} from "./chunk-XWWBVKOS.js";
+} from "./chunk-OQRPY556.js";
 import {
   Tooltip,
   TooltipModule
-} from "./chunk-32DJX6ZA.js";
+} from "./chunk-WGREJDD5.js";
+import {
+  DomSanitizer
+} from "./chunk-CS3EUUUX.js";
+import "./chunk-CB3CDQYP.js";
 import {
   Ripple,
   RippleModule
-} from "./chunk-KAK47JR6.js";
+} from "./chunk-3ZKX3ETI.js";
 import {
   ConnectedOverlayScrollHandler,
   DomHandler
@@ -20,18 +24,14 @@ import {
   style,
   transition,
   trigger
-} from "./chunk-KNEXVXA2.js";
-import {
-  DomSanitizer
-} from "./chunk-WH5IY5NV.js";
-import "./chunk-VUEE6MDV.js";
+} from "./chunk-ISREJ3MS.js";
 import {
   OverlayService,
   PrimeNGConfig,
   PrimeTemplate,
   UniqueComponentId,
   zindexutils
-} from "./chunk-SKJMZB3Y.js";
+} from "./chunk-XS73X26G.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -41,7 +41,7 @@ import {
   NgStyle,
   NgTemplateOutlet,
   isPlatformBrowser
-} from "./chunk-MAJIEFNK.js";
+} from "./chunk-IPESEEDX.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -103,7 +103,8 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-WN5G7UFP.js";
+} from "./chunk-AIX6NXNT.js";
+import "./chunk-QOHD3WUR.js";
 
 // node_modules/primeng/fesm2022/primeng-menu.mjs
 var _c0 = ["pMenuItemContent", ""];

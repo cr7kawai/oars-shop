@@ -1,21 +1,23 @@
 import {
-  ButtonDirective,
-  ButtonModule
-} from "./chunk-RMW5C7GN.js";
-import {
   FocusTrap,
   FocusTrapModule
-} from "./chunk-KG2W6N45.js";
+} from "./chunk-6W52I2BD.js";
 import {
   TimesIcon
-} from "./chunk-5RJI55SX.js";
+} from "./chunk-WZUH3MPY.js";
 import {
-  BaseIcon
-} from "./chunk-HYPRWDPD.js";
+  ButtonDirective,
+  ButtonModule
+} from "./chunk-G4EF3GJQ.js";
+import "./chunk-WTLQ2YYS.js";
+import "./chunk-D2QEYGFT.js";
 import {
   Ripple,
   RippleModule
-} from "./chunk-KAK47JR6.js";
+} from "./chunk-3ZKX3ETI.js";
+import {
+  BaseIcon
+} from "./chunk-45XPQ5VW.js";
 import {
   DomHandler
 } from "./chunk-TKJMWDM5.js";
@@ -26,7 +28,7 @@ import {
   transition,
   trigger,
   useAnimation
-} from "./chunk-KNEXVXA2.js";
+} from "./chunk-ISREJ3MS.js";
 import {
   Footer,
   Header,
@@ -36,7 +38,7 @@ import {
   TranslationKeys,
   UniqueComponentId,
   zindexutils
-} from "./chunk-SKJMZB3Y.js";
+} from "./chunk-XS73X26G.js";
 import {
   CommonModule,
   DOCUMENT,
@@ -45,7 +47,7 @@ import {
   NgStyle,
   NgTemplateOutlet,
   isPlatformBrowser
-} from "./chunk-MAJIEFNK.js";
+} from "./chunk-IPESEEDX.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -64,7 +66,6 @@ import {
   Renderer2,
   ViewChild,
   ViewEncapsulation$1,
-  __spreadValues,
   booleanAttribute,
   numberAttribute,
   setClassMetadata,
@@ -109,7 +110,10 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-WN5G7UFP.js";
+} from "./chunk-AIX6NXNT.js";
+import {
+  __spreadValues
+} from "./chunk-QOHD3WUR.js";
 
 // node_modules/primeng/fesm2022/primeng-icons-windowmaximize.mjs
 var WindowMaximizeIcon = class _WindowMaximizeIcon extends BaseIcon {

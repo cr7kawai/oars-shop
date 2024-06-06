@@ -1,0 +1,18 @@
+.p-field {
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-spacing {
+    margin-right: 10px; /* Ajusta el valor según tus necesidades */
+  }
+  
+  /* Elimina el margen del último botón */
+  .button-container .button-spacing:last-child {
+    margin-right: 0;
+  }
+  
